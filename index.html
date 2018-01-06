@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>统一建模语言理论测试</title>
+<style>
+body{
+	font-family:"Microsoft YaHei UI";
+	color:#464646;
+	padding:10px;
+}
+</style>
+<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+
+<body>
+	<div>
+    	<h1>统一建模语言理论测试</h1>
+    </div>
+    <form method="post" action="#">
+    	<table>
+        	<tr>
+            	<td>考试科目：</td>
+                <td> 统一建模语言</td>
+                <td>时间：100分钟 </td>
+                <td>得分：100</td>
+            </tr>
+        	<tr>
+            	<td>班级：</td>
+                <td><input name="classNum" type="text"/></td>
+                <td>学号：<input name="stu_num" type="text"/></td>
+                <td>姓名：<input name="stu_name" type="text"/></td>
+            </tr>
+        </table>
+        <h2>一、填空题（每空5分，共20分）</h2>
+        <div style="margin-left:30px">
+            1. UML的中文全称是：<input type="text" name="fill_1" /><br/><br/>
+            2. 对象最突出的特征是：<input type="text" name="fill_2_1"/> <input type="text" name="fill_2_2"/> <input type="text" name="fill_2_3"/>
+        </div>
+        <h2>二、选择题（每题10分，共20分）</h2>
+        <div style="margin-left:30px">
+            1. UML与软件工程的关系是：<br/><br/>
+            <input type="radio" name="q1"/>(A) UML就是软件工程<br/>
+            <input type="radio" name="q1" id="choose_1"/>(B) UML参与到软件工程中软件开发过程的几个阶段<br/>
+            <input type="radio" name="q1"/>(C) UML与软件工程无关<br/>
+            <input type="radio" name="q1"/>(D) UML是软件工程的一部分<br/><br/>
+            2. Java语言支持：<br/><br/>
+            <input type="radio" name="q2" id="choose_2"/>(A) UML就是软件工程<br/>
+            <input type="radio" name="q2"/>(B) UML参与到软件工程中软件开发过程的几个阶段<br/>
+            <input type="radio" name="q2"/>(C) UML与软件工程无关<br/>
+            <input type="radio" name="q2"/>(D) UML是软件工程的一部分<br/>
+        </div>
+        <h2>三、多择题（每题10分，共20分）</h2>
+        <div style="margin-left:30px">
+            1. 用例的粒度分为以下哪三种：<br/><br/>
+            <input type="checkbox" id="chooses_1_a"/>(A) 概述级<br/>
+            <input type="checkbox" id="chooses_1_b"/>(B) 需求级<br/>
+            <input type="checkbox" id="chooses_1_c"/>(C) 用户目标级<br/>
+            <input type="checkbox" id="chooses_1_d"/>(D) 子功能级<br/>
+        </div>
+        <div style="margin-left:30px">
+            2. 类图由以下哪三部分组成：<br/><br/>
+            <input type="checkbox" id="chooses_2_a"/>(A) 名称(Name)<br/>
+            <input type="checkbox" id="chooses_2_b"/>(B) 属性(Attribute)<br/>
+            <input type="checkbox" id="chooses_2_c"/>(C) 操作(Operation)级<br/>
+            <input type="checkbox" id="chooses_2_d"/>(D) 方法(Function)级<br/>
+        </div>
+        <h2>四、判断题（每题10分，共20分）</h2>
+        <div style="margin-left:30px">
+            1. 用例图只是用于和客户交流和沟通的,用于确定需求。<input type="radio" name="q3"/>√<input type="radio" name="q3" id="tf1"/>×<br/>
+            2. 在状态图中,终止状态在一个状态图中允许有任意多个。<input type="radio" name="q3" id="tf2"/>√<input type="radio" name="q3"/>×<br/>
+        </div>
+        <h2>五、简答题（每题20分，共20分）</h2>
+        <div style="margin-left:30px">
+            1. 简述什么是模型以及模型的表现形式？<br/>
+            <Textarea style="width:800px;height:200px" name="modelAnswer">
+            </Textarea>
+        </div>
+        <input type="submit" value="计算分数" style="margin-top:5px"/>
+    </form>
+</body>
+</html>
